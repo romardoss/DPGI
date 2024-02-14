@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33829.357
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DPGI", "DPGI\DPGI.csproj", "{F52A779A-36CE-42F6-B3AF-EDDBD93A1E2F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F52A779A-36CE-42F6-B3AF-EDDBD93A1E2F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F52A779A-36CE-42F6-B3AF-EDDBD93A1E2F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F52A779A-36CE-42F6-B3AF-EDDBD93A1E2F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F52A779A-36CE-42F6-B3AF-EDDBD93A1E2F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EABEDB17-170C-497A-9252-A53B1B57B169}
+	EndGlobalSection
+EndGlobal
