@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace DPGI.Properties
+namespace lab2.Properties
 {
 
 
