@@ -5,11 +5,11 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:lab2"
         mc:Ignorable="d"
-        Title="Window3" Height="250" Width="500">
-    <DockPanel LastChildFill="False">
+        Title="Window3" Height="250" Width="550">
+    <DockPanel LastChildFill="True">
         <Label DockPanel.Dock="Top" HorizontalAlignment="Center">Label</Label>
         <TextBox DockPanel.Dock="Left" Width="200">TextBox</TextBox>
         <TextBox DockPanel.Dock="Right" Width="200">TextBox</TextBox>
-        <Button Margin="10" Height="30" Width="80" VerticalAlignment="Bottom" Click="Button_Click">Button</Button>
+        <Button Margin="10" Height="30" VerticalAlignment="Bottom" Click="Button_Click">Button</Button>
     </DockPanel>
 </Window>
