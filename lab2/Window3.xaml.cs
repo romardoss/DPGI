@@ -15,20 +15,13 @@ using System.Windows.Shapes;
 namespace lab2
 {
     /// <summary>
-    /// Interaction logic for Window2.xaml
+    /// Interaction logic for Window3.xaml
     /// </summary>
-    public partial class Window2 : Window
+    public partial class Window3 : Window
     {
-        public Window2()
+        public Window3()
         {
             InitializeComponent();
-        }
-
-        private void Button_Click(object sender, RoutedEventArgs e)
-        {
-            Window3 window3 = new Window3();
-            window3.Show();
-            Close();
         }
     }
 }
