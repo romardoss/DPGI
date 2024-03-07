@@ -5,20 +5,16 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:lab2"
         mc:Ignorable="d"
-        Title="Window1" Height="450" Width="800">
-    <Grid ShowGridLines="True">
-        <Grid.ColumnDefinitions>
-            <ColumnDefinition />
-            <ColumnDefinition />
-            <ColumnDefinition />
-        </Grid.ColumnDefinitions>
-        <Grid.RowDefinitions>
-            <RowDefinition Height="*"/>
-            <RowDefinition Height="4*"/>
-            <RowDefinition Height="Auto"/>
-        </Grid.RowDefinitions>
-        <Label Grid.Column="1" Grid.Row="0">Label</Label>
-        <TextBox Grid.Column="0" Grid.Row="1" Grid.ColumnSpan="3">TextBox</TextBox>
-        <Button Grid.Column="1" Grid.Row="2">Button</Button>
-    </Grid>
+        Title="Window1" Height="450" Width="600">
+    <StackPanel Orientation="Vertical" Margin="30" HorizontalAlignment="Stretch" VerticalAlignment="Center">
+        <Label HorizontalAlignment="Center">Label</Label>
+        <TextBox>TextBox</TextBox>
+        <TextBox>TextBox</TextBox>
+        <TextBox>TextBox</TextBox>
+        <TextBox>TextBox</TextBox>
+        <TextBox>TextBox</TextBox>
+        <TextBox>TextBox</TextBox>
+        <TextBox>TextBox</TextBox>
+        <Button Margin="40" Click="Button_Click">Button</Button>
+    </StackPanel>
 </Window>
