@@ -6,10 +6,31 @@
         xmlns:local="clr-namespace:lab2._2"
         mc:Ignorable="d"
         Title="TextEditor" Height="450" Width="800">
+    <Window.Resources>
+        <Style TargetType="Button">
+            <Setter Property="Background" Value="Transparent"/>
+            <Setter Property="BorderThickness" Value="0"/>
+        </Style>
+    </Window.Resources>
     <Grid>
         <Grid.RowDefinitions>
-            <RowDefinition/>
-            <RowDefinition/>
+            <RowDefinition Height="Auto"></RowDefinition>
+            <RowDefinition></RowDefinition>
         </Grid.RowDefinitions>
+        <Border Grid.Row="0" BorderBrush="#FFCBBEBE" BorderThickness="2" CornerRadius="10"></Border>
+        <StackPanel Grid.Row="0" Orientation="Horizontal">
+            <Button>
+                <Image Source="icons/open.png" ToolTip="Open"/>
+            </Button>
+            <Button>
+                <Image Source="/icons/remove.png" ToolTip="Close"/>
+            </Button>
+            <Button>
+                <Image Source="/icons/copy.png" ToolTip="Copy" />
+            </Button>
+            <Button>
+                <Image Source="/icons/paste.png" ToolTip="Paste" />
+            </Button>
+        </StackPanel>
     </Grid>
 </Window>
