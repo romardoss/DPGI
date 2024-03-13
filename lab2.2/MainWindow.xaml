@@ -50,7 +50,7 @@
                          TextWrapping="Wrap" AcceptsReturn="True" AcceptsTab="True"
                          FontSize="{Binding ElementName=fontSlider, Path=Value, UpdateSourceTrigger=PropertyChanged}"></TextBox>
                 <DockPanel Grid.Row="1" Margin="10">
-                    <Label>Розмір шрифту: </Label>
+                    <Label Target="{Binding ElementName=fontSlider}">Розмір шрифту: </Label>
                     <Slider Margin="4" MinWidth="100" Name="fontSlider" Maximum="100" Minimum="12" Value="16"/>
                     <Button DockPanel.Dock="Bottom" Style="{x:Null}" Width="30"
                             Command="Save">ok</Button>
